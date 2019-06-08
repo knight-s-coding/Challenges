@@ -1,0 +1,67 @@
+#box{
+    background-color: aquamarine;
+    border: 5px solid black;
+}
+#box h1{
+    color: darkred
+}
+body{
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img{
+    width: 150px; 
+    height:auto;
+    transform: rotate(270deg);
+   padding:30px;
+}
+ul {
+    list-style: none;
+}
+#square{
+    width:40px;
+    height:40px;
+    top:35%;
+    animation-name: movesquare;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position: fixed;
+  animation-timing-function: linear;
+
+}
+.one{
+    background-color: lightblue;
+    left:5%;
+}
+.two{
+    background-color: blue;
+    left:10%;
+    animation-delay: 150ms;
+}
+.three{
+    background-color: darkblue;
+    left:15%;
+    animation-delay: 300ms;
+}
+.four{
+    background-color:lightcoral;
+    left:85%;
+    animation-delay: 450ms;
+}
+.five{
+    background-color:red;
+    left:90%;
+    animation-delay: 600ms;
+}
+.six{
+    background-color:darkred;
+    left:95%;
+    animation-delay: 750ms;
+}
+@keyframes movesquare {
+    0%   {top:35%; transform: rotate(0deg);}
+    25%  {top:35%; transform: rotate(90deg);}
+    50%  {top:70%; transform: rotate(180deg);}
+    100% {top:35%; transform: rotate(270deg);}
+}
