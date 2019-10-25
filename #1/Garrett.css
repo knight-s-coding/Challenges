@@ -1,0 +1,45 @@
+.yeet2{
+    color : red;
+}
+.yeet3{
+    color : red;
+    font-size : 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 3px 4px black, 0 0 28px darkred, 0 0 7px red;
+    
+}
+.fuck{
+    position:absolute;
+    left:0px;
+    bottom: 0px 
+}
+.yeet4{
+    color : red;
+    font-size : 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 3px 4px black, 0 0 28px darkred, 0 0 7px red;
+    transform: rotate(20deg);
+    position:absolute;
+    left:200px;
+    bottom: 200px
+}
+.yeet5{
+    color : red;
+    font-size : 38px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 3px 4px black, 0 0 28px darkred, 0 0 7px red;
+    transform: rotate(-35deg);
+    position:absolute;
+    left:548px;
+    bottom: 0px
+}
+.yeet6{
+    color : red;
+    font-size : 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 8px 8px 50px black, 0 0 32px darkred, 0 0 18px red;
+    transform: rotate(-19deg);
+    position:absolute;
+    left:1130px;
+    bottom: 260px
+}

@@ -1,0 +1,41 @@
+#rainVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+div {
+    position: fixed;
+    color: orange;
+    text-shadow: 0 0 40px whitesmoke;
+    width: 100%;
+    padding: 35px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Courier;
+    font-weight: bolder;
+}
+
+@keyframes rotateswirl {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.swirl {
+    height: 300px;
+    width: 300px;
+    animation: rotateswirl 3s linear infinite;
+}
+
+.skeleton {
+    position: fixed;
+    bottom: 0;
+    right: 75%;
+}
+
+.header {
+    font-size: 100px;
+}
+  
