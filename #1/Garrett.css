@@ -1,6 +1,19 @@
-.yeet2{
-    color : red;
+.yeet1{
+    position: absolute;
+    width: 100px;
+    height: 182px;
+    left: 280px;
+    bottom: 270px;
+    animation-name: movement;
+    animation-duration: 600s;
+    animation-delay: 0ms;
 }
+@keyframes movement{
+    from{ transform: translateX(0)}
+    to{ transform: translateX(800px)}
+}
+
+
 .yeet3{
     color : red;
     font-size : 100px;
