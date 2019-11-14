@@ -1,0 +1,45 @@
+body {
+    background-color: darkcyan;
+}
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    margin: 0px;
+    padding: 0px;
+}
+#display {
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+}
+.row1{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.row2{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.row3{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.row4{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
