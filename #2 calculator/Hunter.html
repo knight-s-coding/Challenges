@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: slategrey;
+        }
+
+        .calculator {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-top: -125px;
+            margin-left: -60px;
+            overflow: hidden;
+        }
+    
+        .calculator a {
+            display: block;
+            height: 15px; 
+            width: 120px;
+            margin-bottom: -15px;
+            background-color: white;
+        }
+
+        .calculator button {
+            width: 40px;
+            height: 40px;
+            border-color: black;
+            background-color: whitesmoke;
+            margin-right: -4px;
+        }
+    
+        .calculator button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculatorDiv" class="calculator">
+        <a id="input"></a><br/>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button><br/>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button><br/>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button><br/>
+        <button>0</button>
+        <button>.</button>
+        <button>+</button><br/>
+        <button>-</button>
+        <button>*</button>
+        <button>/</button><br/>
+        <button style="width: 60px;">BACK</button>
+        <button style="width: 60px;">CLEAR</button><br/>
+        <button style="width: 120px;">=</button>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
