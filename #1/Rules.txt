@@ -1,0 +1,5 @@
+-Edit Only Your Own File
+-Don't Create New Files
+-All Images And Assets You Add Must Be Named Your Name (And A Number If Mulitple) 
+-All Images And Assest Must Be Added Only To The Assets Folder
+-You Must Use Your Own Assets (Copying Assets Must Be Ran By Me First)

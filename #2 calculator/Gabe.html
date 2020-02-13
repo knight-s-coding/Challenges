@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="Gabe.js"></script>
+    <link rel="stylesheet" href="Gabe.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+    <table>
+      <tr>
+        <th colspan="5">
+          <h2>Calculator</h2>
+        </th>
+      </tr>
+        <tr>
+            <td colspan="4"><div class="text">
+                    <p id="answer" maxlength="9"></p>
+                </div></td>
+            <td><button onclick="clearScreen()">AC</button></td>
+        </tr>
+        <tr>
+          <td><button id="one" onclick="one()"> 1 </button></td>
+          <td> <button id="two" onclick="two()"> 2 </button></td>
+          <td> <button id="three" onclick="three()"> 3 </button></td>
+          <td><button onclick="add()">+</button></td>
+          <td><button onclick="subtract()">-</button></td>
+        </tr>
+        <tr>
+          <td> <button id="four" onclick="four()">4</button></td>
+          <td><button id="five" onclick="five()">5</button></td>
+          <td><button id="six" onclick="six()">6</button></td>
+          <td><button onclick="multiply()">*</button></td>
+          <td><button onclick="divide()">/</button></td>
+        </tr>
+        <tr>
+          <td><button id="seven" onclick="seven()">7</button></td>
+          <td> <button id="eight" onclick="eight()">8</button></td>
+          <td> <button id="nine" onclick="nine()">9</button></td>
+          <td> <button id="zero" onclick="zero()">0</button></td>
+          <td><button onclick="calculate()">=</button></td>
+        </tr>
+      </table> 
+    
+    
+    </div>
+    
+
+</body>
+</html>

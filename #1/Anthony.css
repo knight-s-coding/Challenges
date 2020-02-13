@@ -1,0 +1,22 @@
+.penis {
+    color: orangered;
+    text-align: center;
+     font-size: 75px;
+     width: 750px
+    
+    
+  }
+   
+body {  background-image: 
+    url(http://pngimg.com/uploads/skeleton/skeleton_PNG42652.png); 
+     background-repeat:repeat; 
+     background-color: black;   
+     background-size: cover
+}
+
+
+.pain{
+  background-image: url(Anthony.m_Asset1), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+}

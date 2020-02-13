@@ -1,0 +1,16 @@
+╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+║You are to make a calculator								    ║
+║the more advanced the calculator the better						    ║
+║it shoulded also have a good gui and look some what stylish				    ║
+║this should be pratical something people would actual use				    ║
+╠═══════════════════════════════════════════════════════════════════════════════════════════╣
+║Make Your Pushes									    ║
+║YourName - done									    ║
+║or if unfinished                                                                           ║
+║YourName - wip										    ║
+║*note Your name is not in the literal sense but should actual your be your legal name*     ║
+╠═══════════════════════════════════════════════════════════════════════════════════════════╣
+║dont make bracnhes 									    ║
+║just don't, you will be deducted points for doing such a thing				    ║
+╚═══════════════════════════════════════════════════════════════════════════════════════════╝
+
